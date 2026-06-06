@@ -1,88 +1,84 @@
-# Blinkit Sales Performance Analysis Using Python
+# Blinkit Sales Analysis Using Python
 
-## Project Overview
+## Overview
 
-This project analyzes Blinkit's retail sales data to evaluate **sales performance, customer satisfaction, and inventory distribution** using Python-based data analytics techniques. The objective is to generate actionable business insights through exploratory data analysis (EDA) and visualization.
+This project analyzes Blinkit's retail sales data to evaluate sales performance, customer satisfaction, and inventory distribution. Using Python-based data analytics techniques, the project uncovers key business insights through data cleaning, exploratory data analysis (EDA), KPI evaluation, and data visualization. The analysis was conducted to address specific business requirements focused on sales optimization and performance assessment.
 
 ## Business Objectives
 
 * Analyze overall sales performance across products and outlets.
-* Evaluate customer satisfaction using product ratings.
-* Assess inventory distribution across outlet types and locations.
-* Identify key factors influencing sales performance.
-* Support data-driven decision-making through analytical insights.
+* Evaluate customer satisfaction through customer ratings.
+* Examine inventory distribution across outlet types and locations.
+* Identify key revenue-driving products and outlet segments.
+* Support data-driven business decision-making through actionable insights.
 
 ## Dataset
 
-* **Records:** 8,523
-* **Features:** Product attributes, sales figures, outlet characteristics, customer ratings, and inventory-related information.
+The dataset contains retail transaction data including:
+
+* Product Categories
+* Sales Revenue
+* Item Fat Content
+* Customer Ratings
+* Outlet Characteristics
+* Outlet Size and Location Information
 
 ## Tools & Technologies
 
-* **Python**
-* **Pandas**
-* **NumPy**
-* **Matplotlib**
-* **Seaborn**
-* **Jupyter Notebook**
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
-## Data Preparation
+## Project Workflow
 
-* Cleaned and standardized categorical variables.
-* Handled inconsistent data entries.
-* Validated data quality for accurate analysis.
-* Prepared structured datasets for exploratory analysis and visualization.
+### 1. Data Cleaning
 
-## Key Performance Indicators (KPIs)
+* Standardized inconsistent category labels.
+* Validated data quality and prepared data for analysis.
+
+### 2. Exploratory Data Analysis (EDA)
+
+* Examined sales patterns and product performance.
+* Analyzed customer ratings and outlet characteristics.
+* Identified trends across multiple business dimensions.
+
+### 3. KPI Analysis
+
+The following KPIs were evaluated:
 
 * Total Sales
 * Average Sales
 * Number of Items Sold
 * Average Customer Rating
 
-## Analysis Performed
+### 4. Data Visualization
 
-### 1. Sales by Fat Content
+Created visualizations to analyze:
 
-Analyzed the impact of product fat content on overall sales performance.
-
-### 2. Sales by Item Type
-
-Evaluated revenue contribution across different product categories.
-
-### 3. Fat Content by Outlet
-
-Compared sales performance across outlets segmented by fat content.
-
-### 4. Sales by Outlet Establishment Year
-
-Examined the relationship between outlet age and sales performance.
-
-### 5. Sales by Outlet Size
-
-Analyzed how outlet size influences revenue generation.
-
-### 6. Sales by Outlet Location Tier
-
-Assessed geographical sales distribution across different location tiers.
-
-## Visualizations
-
-The project uses Matplotlib and Seaborn to create:
-
-* Bar Charts
-* Donut/Pie Charts
-* Line Charts
-* Comparative Sales Visualizations
-* Distribution Analysis Charts
+* Sales by Fat Content
+* Sales by Item Type
+* Fat Content by Outlet Location Tier
+* Sales by Outlet Establishment Year
+* Sales by Outlet Size
+* Sales by Outlet Location Tier
 
 ## Key Insights
 
-* Generated approximately **$1.20M in total sales** across analyzed transactions.
-* Identified high-performing product categories and outlet segments.
-* Evaluated customer satisfaction trends using average ratings.
-* Revealed the influence of outlet size, location, and establishment year on sales performance.
-* Highlighted opportunities for inventory optimization and strategic business planning.
+* Low Fat products generated the majority of total sales.
+* Fruits & Vegetables and Snack Foods were the highest revenue-generating product categories.
+* Tier 3 locations contributed the largest share of overall sales.
+* Medium-sized outlets outperformed both small and large outlets in revenue generation.
+* Sales performance remained relatively stable across most outlet establishment years.
+
+## Business Recommendations
+
+* Prioritize inventory allocation for high-performing product categories.
+* Focus marketing and expansion efforts on Tier 3 markets.
+* Leverage the strong performance of medium-sized outlets for future growth strategies.
+* Improve promotional activities for lower-performing product segments.
 
 ## Project Structure
 
@@ -94,12 +90,12 @@ The project uses Matplotlib and Seaborn to create:
 
 ## Learning Outcomes
 
-* Data Cleaning and Transformation
+* Data Cleaning & Transformation
 * Exploratory Data Analysis (EDA)
 * Business KPI Analysis
 * Data Visualization
-* Retail Analytics
-* Insight Generation and Reporting
+* Retail Sales Analytics
+* Insight Generation & Business Reporting
 
 ## Author
 
@@ -107,4 +103,4 @@ The project uses Matplotlib and Seaborn to create:
 
 MSc Economics | Aspiring Data Analyst
 
-Skills: Python, SQL, Excel, Power BI, Data Visualization, Statistical Analysis
+**Skills:** Python, SQL, Excel, Power BI, Data Visualization, Statistical Analysis
