@@ -83,8 +83,9 @@ Created visualizations to analyze:
 ## Project Structure
 
 ```text
+├── BUSINESS REQUIREMENT.pdf
 ├── Blinkit Analysis.ipynb
-├── blinkit_data.csv
+├── Blinkit_data.csv
 ├── README.md
 ```
 
